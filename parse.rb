@@ -4,7 +4,7 @@ require 'open-uri'
 
 doc = Nokogiri::HTML.parse(open('https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%BF%E3%81%95%E3%81%BE%E3%81%BF%E3%81%AA%E3%82%89%E3%81%84_%E3%83%92%E3%83%9F%E3%83%84%E3%81%AE%E3%81%93%E3%81%93%E3%81%9F%E3%81%BE').read)
 first_line = true
-series_year = [nil, 2015, 2016, 2017, 2017]
+series_year = [nil, 2015, 2016, 2017, 2017, 2018]
 (1..doc.xpath("//*[@class=\"NavFrame\"]").size).each do |series|
   (2..doc.xpath("//*[@class=\"NavFrame\"][#{series}]/div[2]/table/tr").size).each do |e|
     if doc.xpath("//*[@class=\"NavFrame\"][#{series}]/div[2]/table/tr[#{e}]/td").size >= 5
