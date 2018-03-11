@@ -29,17 +29,3 @@ series_year = [nil, 2015, 2016, 2016, 2017, 2017, 2018, 2018]
   end
 end
 print "\n"
-
-# Chromeの開発者ツールで得られたXPath
-# //*[@id="NavFrame1"]/div[2]/table/tbody/tr[2]/td[3] # 1話Aパート (第1シリーズ2015年) 誕生!小さな神様
-# //*[@id="NavFrame2"]/div[2]/table/tbody/tr[2]/td[3] # 14話Aパート (第1シリーズ2016年)
-# //*[@id="NavFrame2"]/div[2]/table/tbody/tr[3]/td    # 14話Bパート
-# //*[@id="NavFrame3"]/div[2]/table/tbody/tr[2]/td[3] # 64話Aパート (第1シリーズ2017年)
-# //*[@id="NavFrame4"]/div[2]/table/tbody/tr[2]/td[3] # 77話Aパート (第2シリーズ2017年)
-# 実際に有効なXPath
-# //*[@class="NavFrame"][1]/div[2]/table/tr[2]/td[3] # 1話Aパート (第1シリーズ2015年) 誕生!小さな神様
-# //*[@class="NavFrame"][1]/div[2]/table/tr[3]/td[1] # 1話Bパート                     こころ、家をたてる!?
-# //*[@class="NavFrame"][2]/div[2]/table/tr[2]/td[3] # 14話Aパート (第1シリーズ2016年) アワッと登場!双子のここたま
-# //*[@class="NavFrame"][2]/div[2]/table/tr[3]/td[1] # 14話Bパート                     サリーヌとパリーヌの秘密
-# //*[@class="NavFrame"][3]/div[2]/table/tr[2]/td[3] # 64話Aパート (第1シリーズ2017年) ここたまの初夢パニック
-# //*[@class="NavFrame"][4]/div[2]/table/tr[2]/td[3] # 77話Aパート (第2シリーズ2017年) 春のウキウキ♪ここたま活動
