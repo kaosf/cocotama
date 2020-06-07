@@ -14,4 +14,4 @@ It's based on this article: [かみさまみならい ヒミツのここたま -
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2017 ka
+Copyright (C) 2017-2020 ka
