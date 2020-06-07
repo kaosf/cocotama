@@ -14,8 +14,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  nokogiri (= 1.8.1)
+  nokogiri
   pry
 
 BUNDLED WITH
-   1.16.1
+   2.1.4
